@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script:wght@700&family=DynaPuff&family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
+
+*,
+body {
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.font-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 150px;
+    background: linear-gradient(to bottom, #000, #DF7627 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+}
+
+.font-subtitle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #DF7627;
+    margin-top: -20px;
+}
+
+.font-welcometext{
+    font-family: sans-serif;
+    margin-top: -20px;
+}
+
+
+.h1-color{
+    background: linear-gradient(to bottom, #000, #DF7627 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+svg {
+    color: #DF7627;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    transition: all 0.1s ease-in;
+    margin: 0 20px;
+}
+
+svg:hover {
+    color: #fff;
+}
+
+.card-size{
+    width: 22rem;
+}
+
+.card-h3{
+    color: #DF7627;
+}
+
+.card-bg{
+    background-color: #f5f5f5;
+}
+
+.card-badge{
+    background-color: #DF7627;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #000;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #DF7627;
+    border-color: #DF7627;
+}
+
+.btn-color, .btn-nav{
+    background-color: #794721;
+    color: #fff;
+}
+
+.btn-nav:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.beer-badge{
+    background-color: lightgray;
+}
+
+.brewery-detail{
+    width: 45rem;
+}
+
+.formulario{
+    width: 60vw;
+}
+
+.input-style{
+    border: .8px solid #794721;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 1200px){
+    .formulario{
+        width: 85vw;
+    }
+}
+
+@media (max-width: 992px){
+    .font-title{
+        scale: .8;
+    }
+
+    .brewery-detail{
+        width: 70vw;
+    }
+
+    .btn-nav{
+        background-color: #fff;
+        color: #000;
+    }
+
+    .btn-nav:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@media (max-width: 480px){
+    .card-size{
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1200px){
+    .card-size{
+        width: 20vw;
+    }
+}
